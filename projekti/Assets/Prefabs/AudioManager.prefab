@@ -1,0 +1,248 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6502353820062267002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4121319158632456885}
+  - component: {fileID: 6539605085612974569}
+  - component: {fileID: 7216218155586250518}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4121319158632456885
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6502353820062267002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 779.306, y: 682.3735, z: -840.7742}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6539605085612974569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6502353820062267002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a70a68ef64512142862d385a650653a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musics:
+  - name: MainMenu
+    clip: {fileID: 8300000, guid: 830abbcfd04edfa4684b93a87c91d559, type: 3}
+    volume: 0.523
+    loop: 1
+    source: {fileID: 0}
+  - name: Gamelevel
+    clip: {fileID: 8300000, guid: 0cc3e1e1a6f336f4bb1a0757640382f8, type: 3}
+    volume: 0.521
+    loop: 1
+    source: {fileID: 0}
+  - name: Gamelevel2
+    clip: {fileID: 8300000, guid: ddab7c094666368448a858c155ec03af, type: 3}
+    volume: 0.342
+    loop: 1
+    source: {fileID: 0}
+  - name: Gamelevel3
+    clip: {fileID: 8300000, guid: 6694243208319aa4d8d3d1f56db52f61, type: 3}
+    volume: 0.184
+    loop: 1
+    source: {fileID: 0}
+  - name: GameOver
+    clip: {fileID: 8300000, guid: 76ace0e5c876b9943a6da842103f4e42, type: 3}
+    volume: 0.533
+    loop: 0
+    source: {fileID: 0}
+  sounds:
+  - name: buttonSoundFX
+    clip: {fileID: 8300000, guid: 2846aac76f173184eaf05e62318c86d1, type: 3}
+    volume: 0.242
+    pitch: 0.1
+    loop: 0
+    source: {fileID: 0}
+  - name: chickens
+    clip: {fileID: 8300000, guid: 6db06806a0f13d341b0bb1e0779f2253, type: 3}
+    volume: 0.505
+    pitch: 0.1
+    loop: 1
+    source: {fileID: 0}
+  - name: chickenGetsHome
+    clip: {fileID: 8300000, guid: 5d81351059c717b459c25e23b7c743e0, type: 3}
+    volume: 0.468
+    pitch: 0.1
+    loop: 0
+    source: {fileID: 0}
+  - name: coin collected
+    clip: {fileID: 8300000, guid: e36e369efd7c0944daf75799d636bc49, type: 3}
+    volume: 0.402
+    pitch: 0.1
+    loop: 0
+    source: {fileID: 0}
+  - name: lane missed
+    clip: {fileID: 8300000, guid: aece8d8d431c519478734f7567baffe7, type: 3}
+    volume: 0.522
+    pitch: 0.1
+    loop: 0
+    source: {fileID: 0}
+  - name: totalCoins
+    clip: {fileID: 8300000, guid: 8e387d06d936ce34088d3f641df03dbc, type: 3}
+    volume: 0.568
+    pitch: 0.1
+    loop: 0
+    source: {fileID: 0}
+  - name: chickenGetsEaten
+    clip: {fileID: 8300000, guid: e81af0647a2d0734c81545ae2353a685, type: 3}
+    volume: 0.561
+    pitch: 0.1
+    loop: 0
+    source: {fileID: 0}
+  - name: dino_osuu_palikkaan
+    clip: {fileID: 8300000, guid: 4b0134b598377414b8d3da44ee17e2b3, type: 3}
+    volume: 0.276
+    pitch: 0.1
+    loop: 0
+    source: {fileID: 0}
+  - name: kana_pollahtaa
+    clip: {fileID: 8300000, guid: 1101cadada66dc2458d83607d594531c, type: 3}
+    volume: 0.515
+    pitch: 0.1
+    loop: 0
+    source: {fileID: 0}
+  - name: palikka1
+    clip: {fileID: 8300000, guid: 5c469f0e00987b5459a4f1c2c7be7653, type: 3}
+    volume: 0.724
+    pitch: 0.1
+    loop: 0
+    source: {fileID: 0}
+  - name: palikka2
+    clip: {fileID: 8300000, guid: 49be718d9b43f6544a9b91742a600af9, type: 3}
+    volume: 0.746
+    pitch: 0.1
+    loop: 0
+    source: {fileID: 0}
+  - name: palikka3
+    clip: {fileID: 8300000, guid: b8e8afa1c595e7546912b25fb1fd9af8, type: 3}
+    volume: 0.751
+    pitch: 0.1
+    loop: 0
+    source: {fileID: 0}
+  - name: palikka_kasvaa
+    clip: {fileID: 8300000, guid: 231922e5f29a2aa4b871a1849e9649f6, type: 3}
+    volume: 0.572
+    pitch: 0.1
+    loop: 0
+    source: {fileID: 0}
+  backgroundMusic: {fileID: 7216218155586250518}
+--- !u!82 &7216218155586250518
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6502353820062267002}
+  m_Enabled: 0
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 830abbcfd04edfa4684b93a87c91d559, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.501
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
